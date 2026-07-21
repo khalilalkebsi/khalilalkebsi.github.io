@@ -38,7 +38,7 @@
         }
       });
     },
-    { root: deck, threshold: 0.55 }
+    { root: deck, threshold: 0.15 }
   );
   slides.forEach((s) => observer.observe(s));
 
