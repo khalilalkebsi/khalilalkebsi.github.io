@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Khalil Alkebsi — Presentation</title>
+  <meta name="description" content="Interactive presentation — Dr. Khalil Alkebsi, Principal Engineer at XPeng: AI, Robotics & Smart Manufacturing.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="presentation.css">
+</head>
+<body>
+
+  <!-- Progress bar -->
+  <div class="deck-progress" id="progress"></div>
+
+  <!-- Top bar -->
+  <div class="deck-topbar">
+    <div class="deck-brand">K<span class="accent">.</span>A</div>
+    <a href="index.html" class="back-link">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+      Back to Site
+    </a>
+  </div>
+
+  <!-- Dot navigation -->
+  <nav class="deck-dots" id="dots"></nav>
+
+  <!-- Arrow navigation -->
+  <div class="deck-arrows">
+    <button id="prevBtn" aria-label="Previous slide">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+    </button>
+    <button id="nextBtn" aria-label="Next slide">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+    </button>
+  </div>
+
+  <!-- ===================== DECK ===================== -->
+  <div class="deck" id="deck">
+
+    <!-- SLIDE 1: Title -->
+    <section class="slide title-slide" data-title="Introduction">
+      <div class="slide-inner">
+        <img src="assets/photos/profile-xpeng.jpg" alt="Dr. Khalil Alkebsi" class="hero-photo reveal-el">
+        <h1 class="hero-name reveal-el">Dr. Khalil <span class="accent">Alkebsi</span></h1>
+        <p class="hero-role reveal-el">Principal Engineer — Manufacturing Digitalization</p>
+        <p class="hero-sub reveal-el">AI &amp; Robotics Leader · Autonomous Systems · Smart Manufacturing</p>
+        <div class="hero-badges reveal-el">
+          <span class="hero-badge">XPeng Motors</span>
+          <span class="hero-badge">Ph.D. Control Theory</span>
+          <span class="hero-badge">8+ Years Experience</span>
+          <span class="hero-badge gold">🏆 2nd Place — XPENG AI Open (6,813 teams)</span>
+        </div>
+      </div>
+      <div class="scroll-hint">
+        <div class="mouse"></div>
+        <span>Scroll or press ↓</span>
+      </div>
+    </section>
+
+    <!-- SLIDE 2: Background / About -->
+    <section class="slide" data-title="Background">
+      <div class="slide-inner">
+        <span class="eyebrow reveal-el">Background</span>
+        <h2 class="slide-title reveal-el">From Yemen to <span class="accent">China's Top Tech</span></h2>
+        <p class="slide-lead reveal-el">PhD-level AI &amp; Robotics leader with 8+ years across XPENG, BYD, and SANY — translating cutting-edge research into production-grade industrial systems.</p>
+        <div class="stat-row reveal-el">
+          <div class="stat-big"><span class="num">8+</span><span class="lbl">Years Experience</span></div>
+          <div class="stat-big"><span class="num">5</span><span class="lbl">SCI Publications</span></div>
+          <div class="stat-big"><span class="num">3</span><span class="lbl">Inventions</span></div>
+          <div class="stat-big"><span class="num">3</span><span class="lbl">Languages</span></div>
+        </div>
+        <div class="pillars reveal-el" style="margin-top:32px;">
+          <div class="pillar"><span class="ic">⚡</span><p><strong>AI-Driven Manufacturing Digitalization</strong> — Industry 4.0, smart factory transformation, autonomous production systems</p></div>
+          <div class="pillar"><span class="ic">🤖</span><p><strong>Robotics Architecture</strong> — ROS2, MoveIt2, Nav2, multi-arm robots, AMRs, orchestration, collision-free trajectory generation</p></div>
+          <div class="pillar"><span class="ic">🧠</span><p><strong>Embodied AI &amp; VLA</strong> — Vision-Language-Action, multimodal reasoning, foundation-model-enabled robotic execution</p></div>
+          <div class="pillar"><span class="ic">🌍</span><p><strong>Multilingual</strong> — English (Business), Chinese (Business), Arabic (Native)</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 3: Education -->
+    <section class="slide" data-title="Education">
+      <div class="slide-inner">
+        <span class="eyebrow reveal-el">Education</span>
+        <h2 class="slide-title reveal-el">Academic <span class="accent">Foundation</span></h2>
+        <div class="tl stagger">
+          <div class="tl-item">
+            <h3>Ph.D. in Control Theory &amp; Engineering</h3>
+            <div class="co">East China University of Science and Technology (ECUST)</div>
+            <div class="when">2016 – 2020 · State Key Lab of Advanced Control &amp; Optimization</div>
+            <p>Thesis: "Fast Multi-/Many-Objective Optimization and Its Application in Vacuum Pressure Swing Adsorption." Evolutionary algorithms, surrogate-assisted optimization, CO₂ capture.</p>
+          </div>
+          <div class="tl-item">
+            <h3>M.Sc. in Control Theory &amp; Engineering</h3>
+            <div class="co">East China University of Science and Technology (ECUST)</div>
+            <div class="when">2013 – 2016 · State Key Lab of Advanced Control &amp; Optimization</div>
+            <p>Model predictive control, dynamic process optimization, single-objective algorithms for distillation towers, reactors, and separation units.</p>
+          </div>
+          <div class="tl-item">
+            <h3>B.Sc. in Automation Engineering</h3>
+            <div class="co">East China University of Science and Technology (ECUST)</div>
+            <div class="when">2009 – 2013</div>
+          </div>
+          <div class="tl-item">
+            <h3>Chinese Language Program</h3>
+            <div class="co">ECUST</div>
+            <div class="when">2008 – 2009</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 4: Scholarships & Academic Awards -->
+    <section class="slide" data-title="Scholarships & Awards">
+      <div class="slide-inner">
+        <span class="eyebrow reveal-el">Scholarships &amp; Academic Recognition</span>
+        <h2 class="slide-title reveal-el">Awards During <span class="accent">Education</span></h2>
+        <div class="grid grid-2 stagger">
+          <div class="card">
+            <h3>🎓 Chinese Government Scholarship (CSC)</h3>
+            <p class="muted">Full scholarship for Ph.D. studies — awarded by the China Scholarship Council for outstanding international students in science &amp; engineering.</p>
+            <span class="tag-date">2016 – 2020</span>
+          </div>
+          <div class="card">
+            <h3>🎓 Chinese Government Scholarship (CSC)</h3>
+            <p class="muted">Full scholarship for M.Sc. studies at ECUST, State Key Laboratory.</p>
+            <span class="tag-date">2013 – 2016</span>
+          </div>
+          <div class="card">
+            <h3>🎓 Chinese Government Scholarship (CSC)</h3>
+            <p class="muted">Full scholarship for B.Sc. in Automation Engineering at ECUST.</p>
+            <span class="tag-date">2009 – 2013</span>
+          </div>
+          <div class="card">
+            <h3>📝 State Key Lab Researcher</h3>
+            <p class="muted">Research position at the Key Laboratory of Advanced Control &amp; Optimization for Chemical Processes (Ministry of Education).</p>
+            <span class="tag-date">2013 – 2020</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 5: Publications -->
+    <section class="slide" data-title="Publications">
+      <div class="slide-inner">
+        <span class="eyebrow reveal-el">Research &amp; Publications</span>
+        <h2 class="slide-title reveal-el">Peer-Reviewed <span class="accent">Publications</span></h2>
+        <div class="pub stagger">
+          <div class="pub-item">
+            <span class="role">1st Author</span>
+            <div>
+              <h4>Surrogate-Assisted Multi-Objective PSO for CO₂ Capture Using VPSA</h4>
+              <p class="jr">Energy · 2021 · <span class="if">IF: 8.857</span></p>
+            </div>
+          </div>
+          <div class="pub-item">
+            <span class="role">1st Author</span>
+            <div>
+              <h4>Fast Multi-Objective PSO Based on a New Archive Updating Mechanism</h4>
+              <p class="jr">IEEE ACCESS · 2020 · <span class="if">IF: 3.476</span></p>
+            </div>
+          </div>
+          <div class="pub-item">
+            <span class="role">1st Author</span>
+            <div>
+              <h4>MPC and Optimization of VPSA for CO₂ Capture</h4>
+              <p class="jr">ADCONIP International Conference · 2017 · Taipei</p>
+            </div>
+          </div>
+          <div class="pub-item">
+            <span class="role">Co-Author</span>
+            <div>
+              <h4>Heterojunction-Redox Catalysts for High-Temperature CO₂ Capture &amp; In-situ Conversion</h4>
+              <p class="jr">Energy &amp; Environmental Science · 2020 · <span class="if">IF: 39.714</span></p>
+            </div>
+          </div>
+          <div class="pub-item">
+            <span class="role">Co-Author</span>
+            <div>
+              <h4>Quadratic Interpolation Based Simultaneous Heat Transfer Search Algorithm</h4>
+              <p class="jr">Processes · 2020 · <span class="if">IF: 3.352</span></p>
+            </div>
+          </div>
+        </div>
+        <p class="reveal-el" style="margin-top:18px;"><a href="https://scholar.google.com/citations?user=IKBAQwYAAAAJ&hl" target="_blank" rel="noopener" style="color:var(--accent-2);text-decoration:underline;">View Google Scholar Profile →</a></p>
+      </div>
+    </section>
+
+    <!-- SLIDE 6: Experience -->
+    <section class="slide" data-title="Experience">
+      <div class="slide-inner">
+        <span class="eyebrow reveal-el">Professional Experience</span>
+        <h2 class="slide-title reveal-el">Career <span class="accent">Journey</span></h2>
+        <div class="tl stagger">
+          <div class="tl-item">
+            <h3>Principal Engineer — Manufacturing Digitalization</h3>
+            <div class="co">XPeng Motors</div>
+            <div class="when">2025 – Present · Guangzhou</div>
+            <p>Leading AI, robotics, and manufacturing digitalization initiatives. Invented X-Fit — autonomous door assembly achieving ≤0.1mm precision. Building Otraj platform and VLA dual-arm systems.</p>
+          </div>
+          <div class="tl-item">
+            <h3>Algorithm Engineer — Future Laboratory</h3>
+            <div class="co">BYD Auto Industry</div>
+            <div class="when">2025</div>
+            <p>Multi-robot collaborative platform: ROS2, behavior trees, visual SLAM, 3D detection. Dual-arm manipulation, warehousing, coordinated industrial tasks.</p>
+          </div>
+          <div class="tl-item">
+            <h3>Algorithm Engineer — Intelligent Research Institute</h3>
+            <div class="co">SANY Heavy Industry</div>
+            <div class="when">2024 – 2025</div>
+            <p>End-to-end ICT precision guidance for excavators (&lt;5cm accuracy). Deployed across 26+ machines in Indonesia — river clearing, fertilization, logging.</p>
+          </div>
+          <div class="tl-item">
+            <h3>Algorithm Engineer — Small Excavator Research Institute</h3>
+            <div class="co">SANY Heavy Industry</div>
+            <div class="when">2021 – 2024</div>
+            <p>Introduced AI into excavator development. Deep learning on edge (Jetson Xavier/TX2/Nano), YOLOv4-7, autonomous driving, remote control, digital twin.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 7: Competition Award -->
+    <section class="slide award-slide" data-title="AI Competition Award">
+      <div class="slide-inner">
+        <div class="award-cert reveal-el">
+          <img src="assets/photos/competition/xfit-certificate.jpg" alt="XPENG AI Open Competition — Runner-Up Certificate">
+        </div>
+        <div>
+          <div class="trophy-tag reveal-el">🏆 Award</div>
+          <h2 class="slide-title reveal-el"><span class="accent">Runner-Up</span> — XPENG AI Open Competition</h2>
+          <div class="big-metric reveal-el">
+            <span class="n">2nd</span>
+            <span class="t">place among 6,813 teams from around the world</span>
+          </div>
+          <p class="slide-lead reveal-el" style="max-width:44ch;">For <strong>X-Fit</strong>: Next-Generation Autonomous Door Alignment &amp; Fitting System for Smart Manufacturing.</p>
+          <p class="reveal-el" style="color:var(--text-muted);font-size:0.9rem;margin-top:8px;">Achieving ≤0.1mm gap/flush precision · AI-guided 6D pose · Collision-aware robotic assembly · June 2026</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 8: Competition Media -->
+    <section class="slide" data-title="Competition Journey">
+      <div class="slide-inner">
+        <span class="eyebrow reveal-el">Competition Journey</span>
+        <h2 class="slide-title reveal-el">From Semi-Final to <span class="accent">Victory</span></h2>
+
+        <!-- YouTube embed -->
+        <div class="video-embed reveal-el" style="margin-bottom:28px;">
+          <iframe src="https://www.youtube.com/embed/_5xgHPUeVBo?start=221" title="X-Fit Semi-Final Presentation" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="media-grid stagger">
+          <div class="tile wide"><img src="assets/photos/competition/xfit-semifinal-1.jpg" alt="Semi-final presentation"><span class="cap">Semi-Final Presentation</span></div>
+          <div class="tile"><img src="assets/photos/competition/xfit-semifinal-2.jpg" alt="Semi-final stage"><span class="cap">On Stage</span></div>
+          <div class="tile"><img src="assets/photos/competition/xfit-semifinal-3.jpg" alt="Semi-final Q&A"><span class="cap">Q&amp;A Session</span></div>
+          <div class="tile"><img src="assets/photos/competition/xfit-defending-1.jpg" alt="Final defending"><span class="cap">Final — Defending</span></div>
+          <div class="tile"><img src="assets/photos/competition/xfit-defending-2.jpg" alt="Judges panel"><span class="cap">Judges Panel</span></div>
+          <div class="tile"><img src="assets/photos/competition/xfit-defending-3.jpg" alt="Technical defense"><span class="cap">Technical Defense</span></div>
+          <div class="tile"><img src="assets/photos/competition/xfit-defending-4.jpg" alt="Defense close-up"><span class="cap">Close-up</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 9: Prize Winning -->
+    <section class="slide" data-title="Prize Ceremony">
+      <div class="slide-inner">
+        <span class="eyebrow reveal-el">Celebration</span>
+        <h2 class="slide-title reveal-el">Prize <span class="accent">Ceremony</span></h2>
+        <div class="media-grid stagger">
+          <div class="tile wide"><img src="assets/photos/competition/xfit-prize-1.jpg" alt="Receiving award"><span class="cap">Receiving the Award</span></div>
+          <div class="tile"><img src="assets/photos/competition/xfit-prize-2.jpg" alt="On stage with trophy"><span class="cap">Trophy Moment</span></div>
+          <div class="tile"><img src="assets/photos/competition/xfit-prize-3.jpg" alt="Team celebration"><span class="cap">Team Celebration</span></div>
+          <div class="tile"><img src="assets/photos/competition/xfit-prize-4.jpg" alt="Prize ceremony"><span class="cap">Ceremony</span></div>
+          <div class="tile"><img src="assets/photos/competition/xfit-prize-5.jpg" alt="Award photo"><span class="cap">Award Photo</span></div>
+          <div class="tile wide"><img src="assets/photos/competition/xfit-prize-6.jpg" alt="Group photo"><span class="cap">Group Photo — All Winners</span></div>
+          <div class="tile"><img src="assets/photos/competition/xfit-prize-7.jpg" alt="Celebration"><span class="cap">Celebration</span></div>
+          <div class="tile"><img src="assets/photos/competition/xfit-prize-8.jpg" alt="Team"><span class="cap">The Team</span></div>
+          <div class="tile"><img src="assets/photos/competition/xfit-presenting-1.jpg" alt="Final presenting"><span class="cap">Final Presentation</span></div>
+          <div class="tile"><img src="assets/photos/competition/xfit-presenting-2.jpg" alt="Presenting X-Fit"><span class="cap">Presenting X-Fit</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 10: Inventions -->
+    <section class="slide" data-title="Inventions">
+      <div class="slide-inner">
+        <span class="eyebrow reveal-el">Flagship Innovations</span>
+        <h2 class="slide-title reveal-el">My <span class="accent">Inventions</span></h2>
+        <div class="inv stagger">
+          <div class="inv-card">
+            <div class="badge">X</div>
+            <div>
+              <h3>X-Fit — Autonomous Robotic Door Assembly</h3>
+              <p>AI-powered autonomous door alignment &amp; fitting for automotive production. 6D pose generation, gap/flush optimization, collision-aware assembly achieving ≤0.1mm precision.</p>
+              <div class="chips"><span class="chip">6D Pose</span><span class="chip">Optimization</span><span class="chip">≤0.1mm</span><span class="chip">Production-Ready</span><span class="chip">Award Winner</span></div>
+            </div>
+          </div>
+          <div class="inv-card cyan">
+            <div class="badge">O</div>
+            <div>
+              <h3>Otraj — Collision-Free Trajectory &amp; Orchestration Platform</h3>
+              <p>Code-free ROS2/MoveIt2/Nav2/Open-RMF platform for multi-robot orchestration, autonomous trajectory generation, and scalable industrial deployment.</p>
+              <div class="chips"><span class="chip">ROS2</span><span class="chip">MoveIt2</span><span class="chip">Nav2</span><span class="chip">Open-RMF</span><span class="chip">Code-Free</span><span class="chip">Multi-Robot</span></div>
+            </div>
+          </div>
+          <div class="inv-card gold">
+            <div class="badge">V</div>
+            <div>
+              <h3>VLA Dual-Arm + AMR Industrial Robotics</h3>
+              <p>Vision-Language-Action embodied AI for dual-arm robots integrated with AMRs — multimodal task interpretation, autonomous execution, Pi0.5/RL-token approaches.</p>
+              <div class="chips"><span class="chip">Embodied AI</span><span class="chip">VLA</span><span class="chip">Dual-Arm</span><span class="chip">AMR</span><span class="chip">Foundation Models</span></div>
+            </div>
+          </div>
+          <div class="inv-card">
+            <div class="badge">I</div>
+            <div>
+              <h3>ICT Excavator Navigation &amp; Guidance System</h3>
+              <p>Intelligent navigation &amp; guidance for agricultural/heavy machinery. GNSS/IMU positioning, real-time visualization, &lt;5cm bucket-tip accuracy, deployed on 26+ machines.</p>
+              <div class="chips"><span class="chip">GNSS/RTK</span><span class="chip">IMU</span><span class="chip">&lt;5cm Accuracy</span><span class="chip">26+ Machines</span><span class="chip">Indonesia</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 10b: X-Fit Demo -->
+    <section class="slide" data-title="X-Fit Demo">
+      <div class="slide-inner">
+        <span class="eyebrow reveal-el">X-Fit in Action</span>
+        <h2 class="slide-title reveal-el">Autonomous Door <span class="accent">Assembly</span></h2>
+        <div class="grid grid-2 stagger">
+          <div class="card" style="padding:0;overflow:hidden;border-radius:16px;">
+            <video controls preload="metadata" style="width:100%;display:block;aspect-ratio:16/9;object-fit:cover;">
+              <source src="assets/videos/xfit-platform.mp4" type="video/mp4">
+            </video>
+            <div style="padding:14px 18px;"><h3 style="font-size:0.95rem;">X-Fit Platform Overview</h3></div>
+          </div>
+          <div class="card" style="padding:0;overflow:hidden;border-radius:16px;">
+            <video controls autoplay loop muted preload="metadata" style="width:100%;display:block;aspect-ratio:16/9;object-fit:cover;">
+              <source src="assets/videos/xfit-scene.mp4" type="video/mp4">
+            </video>
+            <div style="padding:14px 18px;"><h3 style="font-size:0.95rem;">X-Fit Scene — Live Demo</h3></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 11: Work Gallery -->
+    <section class="slide" data-title="Gallery">
+      <div class="slide-inner">
+        <span class="eyebrow reveal-el">In Action</span>
+        <h2 class="slide-title reveal-el">Work <span class="accent">Gallery</span></h2>
+        <div class="media-grid stagger">
+          <div class="tile wide"><img src="assets/photos/cv-lecture.jpg" alt="Delivering AI lecture at SANY"><span class="cap">Computer Vision Lecture — SANY</span></div>
+          <div class="tile"><img src="assets/photos/cv-training-1.jpg" alt="Deep learning training"><span class="cap">Deep Learning Training</span></div>
+          <div class="tile"><img src="assets/photos/cv-training-2.jpg" alt="CV training"><span class="cap">CV Training Session</span></div>
+          <div class="tile"><img src="assets/photos/cv-training-3.jpg" alt="Leading training"><span class="cap">Leading Training</span></div>
+          <div class="tile"><img src="assets/photos/cv-training-4.jpg" alt="Workshop"><span class="cap">Workshop</span></div>
+          <div class="tile"><img src="assets/photos/cv-training-5.jpg" alt="AI training delivery"><span class="cap">AI Training</span></div>
+          <div class="tile"><img src="assets/photos/byd-team.jpg" alt="BYD Future Lab team"><span class="cap">BYD Future Laboratory Team</span></div>
+          <div class="tile wide"><img src="assets/photos/ict-handover-1.jpg" alt="ICT field handover"><span class="cap">ICT Guidance System — Field Handover</span></div>
+          <div class="tile"><img src="assets/photos/ict-handover-2.jpg" alt="Excavator guidance demo"><span class="cap">Excavator Guidance Demo</span></div>
+          <div class="tile"><img src="assets/photos/ict-handover-3.jpg" alt="Client handover"><span class="cap">Client Handover</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 12: Videos -->
+    <section class="slide" data-title="Videos">
+      <div class="slide-inner">
+        <span class="eyebrow reveal-el">Media</span>
+        <h2 class="slide-title reveal-el">Project <span class="accent">Videos</span></h2>
+        <div class="grid grid-2 stagger">
+          <div class="card" style="padding:0;overflow:hidden;border-radius:16px;">
+            <video controls preload="metadata" style="width:100%;display:block;aspect-ratio:16/9;object-fit:cover;">
+              <source src="assets/videos/otraj.mp4" type="video/mp4">
+            </video>
+            <div style="padding:14px 18px;"><h3 style="font-size:0.95rem;">Otraj — Trajectory &amp; Orchestration Platform</h3></div>
+          </div>
+          <div class="card" style="padding:0;overflow:hidden;border-radius:16px;">
+            <video controls preload="metadata" style="width:100%;display:block;aspect-ratio:16/9;object-fit:cover;">
+              <source src="assets/videos/vla.mov" type="video/quicktime">
+              <p style="padding:20px;color:var(--text-muted);">Your browser cannot play this video. <a href="assets/videos/vla.mov" download style="color:var(--accent-2);">Download VLA video</a></p>
+            </video>
+            <div style="padding:14px 18px;"><h3 style="font-size:0.95rem;">VLA Dual-Arm + AMR System</h3></div>
+          </div>
+          <div class="card" style="padding:0;overflow:hidden;border-radius:16px;">
+            <video controls preload="metadata" style="width:100%;display:block;aspect-ratio:16/9;object-fit:cover;">
+              <source src="assets/videos/demo-reel.mp4" type="video/mp4">
+            </video>
+            <div style="padding:14px 18px;"><h3 style="font-size:0.95rem;">Project Demo Reel</h3></div>
+          </div>
+          <div class="card" style="padding:0;overflow:hidden;border-radius:16px;">
+            <video controls preload="metadata" style="width:100%;display:block;aspect-ratio:16/9;object-fit:cover;">
+              <source src="assets/videos/conference-announcement.mp4" type="video/mp4">
+            </video>
+            <div style="padding:14px 18px;"><h3 style="font-size:0.95rem;">Annual Conference — Smart Assembly</h3></div>
+          </div>
+          <div class="card" style="padding:0;overflow:hidden;border-radius:16px;">
+            <video controls preload="metadata" style="width:100%;display:block;aspect-ratio:16/9;object-fit:cover;">
+              <source src="assets/videos/ict-handover.mp4" type="video/mp4">
+            </video>
+            <div style="padding:14px 18px;"><h3 style="font-size:0.95rem;">ICT Handover Demo</h3></div>
+          </div>
+          <div class="card" style="padding:0;overflow:hidden;border-radius:16px;">
+            <video controls preload="metadata" style="width:100%;display:block;aspect-ratio:16/9;object-fit:cover;">
+              <source src="assets/videos/national-competition.mp4" type="video/mp4">
+            </video>
+            <div style="padding:14px 18px;"><h3 style="font-size:0.95rem;">National Competition — Committee Guest</h3></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 13: Contact / Closing -->
+    <section class="slide close-slide" data-title="Contact">
+      <div class="slide-inner">
+        <span class="eyebrow reveal-el">Let's Connect</span>
+        <h2 class="slide-title reveal-el">Thank <span class="accent">You</span></h2>
+        <p class="slide-lead reveal-el" style="text-align:center;">Interested in collaboration, robotics innovation, or exploring opportunities?</p>
+        <div class="contact-row reveal-el">
+          <a href="mailto:kalkebsi@hotmail.com" class="contact-chip">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            kalkebsi@hotmail.com
+          </a>
+          <a href="tel:+8613701800545" class="contact-chip">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            +86 137 0180 0545
+          </a>
+          <a href="https://scholar.google.com/citations?user=IKBAQwYAAAAJ&hl" target="_blank" rel="noopener" class="contact-chip">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            Google Scholar
+          </a>
+        </div>
+        <a href="assets/Dr_Khalil_Alkebsi_CV_2026.pdf" target="_blank" class="btn-cta reveal-el" style="margin-top:28px;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download CV (PDF)
+        </a>
+      </div>
+    </section>
+
+  </div><!-- /deck -->
+
+  <!-- Lightbox -->
+  <div class="lb" id="lb">
+    <button class="lb-close" id="lbClose">&times;</button>
+    <button class="lb-nav lb-prev" id="lbPrev">‹</button>
+    <button class="lb-nav lb-next" id="lbNext">›</button>
+    <img id="lbImg" src="" alt="">
+  </div>
+
+  <script src="presentation.js"></script>
+</body>
+</html>
